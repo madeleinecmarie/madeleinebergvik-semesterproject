@@ -34,4 +34,4 @@ To run the project, do the following:
 
 ## Contact
 
-[My Linkedin]([https://www.linkedin.com/in/madeleine-bergvik-276b6b20a/]
+[My LinkedIn](https://www.linkedin.com/in/madeleine-bergvik-276b6b20a/)
