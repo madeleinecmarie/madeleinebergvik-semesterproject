@@ -6,7 +6,7 @@ This is a small e-commerce makeup and skincare website where you can buy cruelty
 
 ## Description
 
-This project was my semester project 2021, and I made a e-commerce website selling makeup and skincare inspired by the swedish brand Caia Cosmetics. I was inspired by the girly colours and feeling. The design was made in Figma and coded it in Visual Studio Code using HTML, SASS and Javascript. I used Strapi to make the API and Heroku to deploy it. I also added a admin section to the website where you can easily edit, delete and add new products.
+This project was my semester project 2021, and I made a e-commerce website selling makeup and skincare inspired by the swedish brand Caia Cosmetics. I was inspired by the girly colours and feeling. The design was made in Figma and coded it in Visual Studio Code using HTML, SASS and Javascript. I used Strapi to make the API and Heroku to deploy it. I also added a admin section to the website where you can easily edit, delete and add new products. Used Netlify to deploy the website. 
 
 ## Built With
 
@@ -15,6 +15,8 @@ This project was my semester project 2021, and I made a e-commerce website selli
 - Javascript
 - Strapi
 - Heroku
+- Netlify
+- Figma
 - Visual Studio Code
 
 ## Getting Started
