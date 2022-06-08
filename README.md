@@ -15,7 +15,7 @@ This project was my semester project 2021, and I made a e-commerce website selli
 - Javascript
 - Strapi
 - Heroku
-- -Visual Studio Code
+- Visual Studio Code
 
 ## Getting Started
 
