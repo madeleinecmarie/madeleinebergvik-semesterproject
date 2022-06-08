@@ -12,9 +12,10 @@ This project was my semester project 2021, and I made a e-commerce website selli
 
 - HTML
 - SASS
-- JAVASCRIPT
-- STRAPI
-- HEROKU
+- Javascript
+- Strapi
+- Heroku
+- -Visual Studio Code
 
 ## Getting Started
 
