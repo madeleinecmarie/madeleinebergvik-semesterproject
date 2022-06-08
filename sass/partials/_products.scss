@@ -1,0 +1,41 @@
+.productsCards {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.productsContainer {
+  margin: auto;
+}
+
+.products {
+  &__headline {
+    margin-bottom: 35px;
+    margin-top: 70px;
+  }
+
+  &__p {
+    width: 45%;
+  }
+}
+
+.searchbar {
+  margin-top: 30px;
+  padding-bottom: 8px;
+
+  &::placeholder {
+    color: $secondary-color !important;
+    font-weight: $bold;
+  }
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: $secondary-color;
+  border-radius: 0;
+  width: 400px;
+}
+
+input:focus {
+  border-color: $primary-color;
+}

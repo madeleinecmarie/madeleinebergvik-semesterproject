@@ -1,0 +1,142 @@
+.bgd-img {
+  background-repeat: no-repeat;
+  height: 920px;
+  width: 100%;
+  z-index: -1;
+}
+
+.login__btn,
+.hero__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  margin-top: 80px;
+
+  &__headertext {
+    color: $primary-color;
+    font-size: $hero-heading;
+    font-weight: $boldest;
+  }
+
+  &__bodytext {
+    width: 40%;
+    margin-top: 15px;
+    line-height: 30px;
+  }
+
+  &__btn {
+    margin-top: 35px;
+    width: 210px;
+    height: 70px;
+    padding: 15px;
+    animation: pulse 1.6s infinite ease-out;
+
+    &__pulse {
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+
+.new__line.herotext {
+  color: $primary-color;
+}
+
+.section {
+  margin-top: 80px;
+
+  &__h1 {
+    height: 170px;
+  }
+}
+
+.iconFirsttext,
+.iconSecondText,
+.iconThreeText {
+  margin-top: 0px;
+
+  &__headlineOne {
+    margin-top: 20px;
+  }
+
+  &__headlineTwo {
+    margin-top: 10px;
+  }
+
+  &__headlineThree {
+    margin-top: 20px;
+  }
+
+  &__p {
+    width: 60%;
+  }
+}
+
+.iconOneDiv,
+.iconTwoDiv,
+.iconThreeDiv {
+  &__icon {
+    height: 110px;
+  }
+
+  &__paw {
+    height: 110px;
+    margin-top: 20px;
+  }
+}
+
+.sectionRowTwo {
+  margin-top: 100px;
+}
+
+.sectionRowThree {
+  margin-top: 70px;
+}
+
+.featuredBgd {
+  background-color: $lightest-pink;
+  margin-top: 80px;
+}
+
+.featuredDiv {
+  &__headline {
+    font-size: $h3-heading;
+    font-weight: $bold;
+    height: 130px;
+    padding-top: 60px;
+  }
+}
+
+.container-fluid.featuredDiv {
+  width: 80%;
+  padding: 0;
+}
+
+.featured {
+  &__img {
+    padding: 0;
+    height: 380px;
+    border-radius: $border-radius-card;
+  }
+}
+
+.featuredContainer {
+  margin: auto;
+}
+
+.height {
+  height: 40px;
+  background-color: $lightest-pink;
+}

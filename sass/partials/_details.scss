@@ -1,0 +1,109 @@
+.detailsContainer {
+  margin-top: 60px;
+}
+
+.details {
+  &__img {
+    height: 620px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+  }
+
+  &__text {
+    margin-top: 90px;
+  }
+
+  &__p {
+    margin-top: 14px;
+    font-weight: $bold;
+  }
+
+  &__h1 {
+    width: 40%;
+  }
+
+  &__description {
+    margin-top: 8px;
+  }
+
+  &__price {
+    font-size: $footer-headline;
+    font-weight: $bolder;
+  }
+
+  &__btn {
+    width: 160px;
+    height: 65px;
+    margin-top: 10px;
+    @include shadow(rgba(0, 0, 0, 0.1));
+  }
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+
+  &__p {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: $footer-body-text;
+  }
+
+  &__reviews {
+    height: 26px;
+    width: 20px;
+    color: $primary-color;
+  }
+}
+
+// Accordion
+
+.accordionContainer {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.accordion {
+  width: 90%;
+  margin: auto;
+}
+
+.accordion.accordion-flush {
+  box-shadow: none;
+}
+
+.accordion-collapse.collapse,
+.accordion-header {
+  font-weight: $medium;
+}
+
+.accordion-flush .accordion-item:first-child {
+  border-top: solid 1px $secondary-color;
+  border-bottom: solid 1px $secondary-color;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom: solid 1px $secondary-color;
+  border-radius: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: $secondary-color;
+  background-color: $white;
+  box-shadow: none;
+}
+
+.featuredDetailsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.details__h2 {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}

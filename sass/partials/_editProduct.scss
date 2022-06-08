@@ -1,0 +1,57 @@
+.editForm,
+.addForm {
+  margin-top: 80px;
+  height: 400px;
+
+  &__headline {
+    font-weight: $bold;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    resize: none;
+    height: 260px;
+    width: 550px;
+    padding: 20px;
+    background-color: $lightest-pink;
+    border: none;
+    border-radius: $border-radius;
+  }
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.descriptionBtn,
+.addBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+
+  &__add {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.addBtn__add {
+  width: 160px;
+  height: 60px;
+}
+
+.dashboard-button {
+  margin-bottom: 40px;
+}
+
+.featuredCheckbox {
+  margin-top: 10px;
+}
+
+.checkbox__featured {
+  width: 20px;
+  margin-top: 20px;
+}

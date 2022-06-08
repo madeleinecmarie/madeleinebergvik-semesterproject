@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $main-font;
+}
+
+button,
+.login__btn,
+.hero__btn,
+.cartProducts__btn,
+.descriptionBtn__add,
+.addBtn__add,
+.formBtn__loginBtn,
+.dashboard__btn {
+  background-color: $primary-color;
+  border-radius: $border-radius;
+  width: 120px;
+  height: 52px;
+  padding: 12px;
+  border: none;
+  font-weight: bolder;
+  color: $white;
+  font-size: $button-text;
+  cursor: pointer;
+  transition: $hover-transition;
+}
+
+.hero__btn,
+.cartProducts__btn,
+.details__btn,
+.descriptionBtn__add,
+.addBtn__add,
+.dashboard__btn {
+  &:hover {
+    background-color: $white;
+    border: solid 2px $primary-color;
+    color: $primary-color;
+  }
+}
+
+.login__btn,
+.descriptionBtn__add,
+.addBtn__add,
+.formBtn__loginBtn {
+  transition: $hover-transition;
+
+  &:hover {
+    transform: $hover-up;
+  }
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: $primary-heading;
+  color: $primary-color;
+  font-weight: $bolder;
+}
+
+h2 {
+  font-weight: $bold;
+  font-size: $h2-heading;
+  color: $secondary-color;
+}
+
+h3 {
+  font-size: $h3-heading;
+  color: $secondary-color;
+}
+
+h4 {
+  font-size: $h4-heading;
+  font-weight: $bolder;
+  color: $secondary-color;
+}
+
+p {
+  font-size: $body-text;
+  font-weight: $medium;
+  color: $secondary-color;
+}
+
+span {
+  color: $secondary-color;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.new__line {
+  display: $new-line;
+}
+
+.card {
+  width: auto;
+  border: none;
+  background: transparent;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.bold__text {
+  font-weight: $bold;
+}
+
+.edit__h1,
+.products__headline,
+.form {
+  margin-top: 70px;
+}
+
+.form {
+  &__password,
+  &__login {
+    font-weight: $bold;
+  }
+
+  &__input {
+    border-radius: 0px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $secondary-color;
+    width: 430px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.featured__img {
+  transition: $hover-transition;
+
+  &:hover {
+    transform: $hover-up;
+  }
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.alertDiv {
+  margin-top: 90px;
+}
+
+.container-fluid {
+  width: 97%;
+}

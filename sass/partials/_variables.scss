@@ -1,0 +1,49 @@
+// Colours
+$primary-color: #f34e6c;
+$secondary-color: #333;
+$white: #ffffff;
+$light-pink: #fed8df;
+$lightest-pink: rgba(255, 218, 218, 0.3);
+
+// Fonts
+$main-font: 'Montserrat', sans-serif;
+$hero-heading: 3.75rem;
+$primary-heading: 2.8rem;
+$h2-heading: 1.8rem;
+$h3-heading: 1.7rem;
+$h4-heading: 1.25rem;
+$body-text: 1.125rem;
+$smallest-font: 0.875rem;
+$button-text: 1.1rem;
+$footer-body-text: 1rem;
+$footer-headline: 1.375rem;
+
+// Fonts media queries
+$h1-mediaQueries: 2.2rem;
+$p-mediaQueries: 1rem;
+$h4-mediaQueries: 1.1rem;
+$h1-hero-mediaQueries: 2.3rem;
+$h1-hero-smallScreens: 2rem;
+$h1-smallScreens: 1.9rem;
+$h2-smallScreens: 1.5rem;
+$h3-smallScreens: 1.45rem;
+$body-text-smallScreens: 0.9rem;
+$hero-smallestScreens: 1.7rem;
+$h1-smallestScreens: 1.8rem;
+$h2-smallestScreens: 1.3rem;
+$h3-smallestScreens: 1.25rem;
+
+//Font style
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$bolder: 800;
+$boldest: 900;
+
+// Elements
+$border-radius: 35px;
+$border-radius-card: 20px;
+$new-line: block;
+$hover-transition: transform 250ms;
+$hover-up: translateY(-3px);

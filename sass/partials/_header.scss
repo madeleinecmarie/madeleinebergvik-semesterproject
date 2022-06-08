@@ -1,0 +1,55 @@
+.navbar {
+  padding: 22px;
+  background-color: transparent !important;
+}
+
+.activeNav {
+  background-color: $white !important;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-left: 80px;
+}
+
+.nav-link {
+  font-weight: $medium;
+  font-size: $body-text;
+  color: $secondary-color !important;
+  margin-left: 55px;
+
+  &:hover {
+    color: $primary-color !important;
+  }
+}
+
+.nav-link.active {
+  color: $primary-color !important;
+  font-weight: $bolder;
+}
+
+.nav-link .active {
+  color: $primary-color !important;
+}
+
+.navbar-brand__logo {
+  height: 35px;
+}
+
+.login__btn {
+  margin-right: 25px;
+}
+
+.shopping-bag {
+  height: 45px;
+  width: 40px;
+  color: $secondary-color;
+  transition: $hover-transition;
+
+  &:hover {
+    color: $primary-color;
+    transform: $hover-up;
+  }
+}

@@ -1,0 +1,60 @@
+footer {
+  background-color: $primary-color;
+  height: 270px;
+}
+
+footer p,
+footer h4,
+footer span {
+  color: $white;
+}
+
+footer p {
+  font-size: $footer-body-text;
+}
+
+.footer-logo {
+  margin-top: 50px;
+  height: 35px;
+}
+
+.copyright {
+  margin-top: 25px;
+
+  &__p {
+    margin: 0;
+  }
+}
+
+.socials,
+.contact {
+  margin-top: 50px;
+  color: $white;
+
+  &__h4 {
+    font-size: $h4-heading;
+    margin-bottom: 20px;
+  }
+
+  &__paragraph {
+    margin-bottom: 8px;
+  }
+
+  &__paragraph:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &__icon {
+    transition: $hover-transition;
+  }
+
+  &__icon:hover {
+    transform: $hover-up;
+    cursor: pointer;
+  }
+}
+
+.payment__icons {
+  color: $white;
+}
