@@ -1,6 +1,6 @@
 # 'ili.
  
-![ili](https://user-images.githubusercontent.com/69841827/172642659-e1e323f0-56b0-4bf5-bb41-5004ef3a97be.png)
+![ili](https://magical-mochi-ef492f.netlify.app/_next/image?url=%2Fimages%2Fili.png&w=2048&q=75)
 
 This is a small e-commerce makeup and skincare website where you can buy cruelty free and vegan products. 
 
